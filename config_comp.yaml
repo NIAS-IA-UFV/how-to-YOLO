@@ -1,0 +1,15 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /content/drive/MyDrive/Africa_unicef # dataset root dir
+train: /content/drive/MyDrive/Africa_unicef/train  # train images (relative to 'path')
+val: /content/drive/MyDrive/Africa_unicef/test  # val images (relative to 'path')
+
+# Classes
+names:
+  0: Thatch
+  1: Tin
+  2: Other
+
